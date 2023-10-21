@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Inter";
+    src: url("/assets/fonts/Inter-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    src: url("/assets/fonts/Inter-Light.ttf") format("truetype");
+    font-weight: 200;
+  }
+
+  @font-face {
+    font-family: "Bigilla";
+    src: url("/assets/fonts/Bigilla-Bold.otf") format("truetype");
+  }
+}
+
+body {
+  font-family: "Inter";
+}
